@@ -48,24 +48,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
+                android:onClick="touchdownTeamA"
                 android:text="@string/touchdown" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:onClick="fieldgoalTeamA"
                 android:text="@string/field_goal" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:onClick="extrapointTeamA"
                 android:text="@string/extra_point" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:onClick="safetyTeamA"
                 android:text="@string/safety" />
         </LinearLayout>
 
@@ -107,24 +111,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
+                android:onClick="touchdownTeamB"
                 android:text="@string/touchdown" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:onClick="fieldgoalTeamB"
                 android:text="@string/field_goal" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:onClick="extrapointTeamB"
                 android:text="@string/extra_point" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:onClick="safetyTeamB"
                 android:text="@string/safety" />
         </LinearLayout>
 
